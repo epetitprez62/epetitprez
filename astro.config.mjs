@@ -20,7 +20,7 @@ const prettyCodeOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://epetitprez.io',
+  site: 'https://epetitprez62.github.io',
   output: 'static',
   base: '/epetitprez'
 
