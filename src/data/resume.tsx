@@ -79,7 +79,7 @@ export const DATA = {
     { href: "/blog", icon: Library, label: "Blog" },
   ],
   contact: {
-    email: "alex@alexmercer.dev",
+    email: "eliot.petitprez@gmail.com",
     tel: "+1 512 000 0000",
     social: {
       GitHub: {
@@ -90,25 +90,19 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com",
+        url: "https://www.linkedin.com/in/eliot-petitprez-304b90292/",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com",
+        url: "https://x.com/e_ptz62",
         icon: Icons.x,
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://youtube.com",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:alex@alexmercer.dev",
+        url: "mailto:eliot.petitprez@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
