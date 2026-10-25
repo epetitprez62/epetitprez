@@ -5,7 +5,7 @@ export const CONFIG = {
   site: {
     url: "https://epetitprez62.github.io",
     locale: "en_US",
-    twitterHandle: "@alexmercer_dev",
+    twitterHandle: "@e_ptz62",
   },
 
   // ---------------------------------------------------------------------------
