@@ -21,7 +21,7 @@ export const DATA = {
     "Élève de première année à l'ENSEEIHT dans le département MF2E (Mécanique des Fluides, Énergétique et Environnement). La conception d'infrastructures énergétiques m'intéressent grandement",
   summary:
     "J'ai effectué une classe préparatoire MPI (Mathématiques, Physique et Informatique) ce qui m'a fait comprendre que l'informatique me déplaisait et que je cherchais de quelque chose de plus concret. C'est en discutant avec des professionnels du métier que l'ingénierie énergetique m'a séduit.",
-  avatarUrl: `${import.meta.env.BASE_URL}photo_eliot.png`,
+  avatarUrl: "/epetitprez/photo_eliot.png",
   ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
