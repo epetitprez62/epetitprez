@@ -22,7 +22,7 @@ const prettyCodeOptions = {
 export default defineConfig({
   site: 'https://epetitprez62.github.io',
   output: 'static',
-  base: '/epetitprez'
+  base: '/epetitprez',
 
   vite: {
     plugins: [tailwindcss()],
