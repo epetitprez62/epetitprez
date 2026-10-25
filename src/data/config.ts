@@ -3,7 +3,7 @@ export const CONFIG = {
   // Site Settings
   // ---------------------------------------------------------------------------
   site: {
-    url: "https://epetitprez.io",
+    url: "https://epetitprez62.github.io",
     locale: "en_US",
     twitterHandle: "@alexmercer_dev",
   },
