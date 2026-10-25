@@ -12,11 +12,11 @@ import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Astro } from "@/components/ui/svgs/astro";
 
 export const DATA = {
-  name: "Alex Mercer - Software Engineer",
-  initials: "AM",
-  url: "https://alexmercer.dev",
-  location: "Austin, TX",
-  locationLink: "https://www.google.com/maps/place/austin+tx",
+  name: "Eliot Petitprez - Élève Ingénieur",
+  initials: "EP",
+  url: "https://epetitprez.io",
+  location: "Toulouse, France",
+  locationLink: "https://www.google.com/maps/place/Toulouse+INP-ENSEEIHT/@43.6021194,1.455808,17z/data=!3m1!4b1!4m6!3m5!1s0x12aebc90e5abb5e5:0x3affd3008b8b9f03!8m2!3d43.6021194!4d1.455808!16zL20vMDRxd25m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
   description:
     "Full-stack engineer turned indie founder. I love building developer tools, fast UIs, and products people actually use.",
   summary:
