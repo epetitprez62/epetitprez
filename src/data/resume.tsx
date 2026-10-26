@@ -24,13 +24,13 @@ export const DATA = {
   avatarUrl: "/epetitprez/photo_eliot.png",
   ogImage: "/og_image.png",
   sections: {
-    about: { order: 1, enabled: true, heading: "About" },
-    work: { order: 2, enabled: true, heading: "Work Experience", presentLabel: "Present" },
+    about: { order: 1, enabled: true, heading: "À propos" },
+    work: { order: 2, enabled: true, heading: "Expérience professionnelle", presentLabel: "Present" },
     education: { order: 3, enabled: true, heading: "Education" },
     skills: { order: 4, enabled: true, heading: "Skills" },
     projects: {
       order: 5, enabled: true,
-      label: "My Projects",
+      label: "Mes Projets",
       heading: "Check out my latest work",
       text: "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
     },
