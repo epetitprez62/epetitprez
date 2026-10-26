@@ -42,13 +42,13 @@ export const DATA = {
     },
     photos: {
       order: 6, enabled: true,
-      heading: "My Recent Travels",
+      heading: "Mes récents voyages",
     },
     contact: {
       order: 8, enabled: true,
       label: "Contact",
-      heading: "Get in Touch",
-      text: "Want to chat? Just shoot me a dm with a direct question on twitter and I'll respond whenever I can. I will ignore all soliciting.",
+      heading: "Restons en contact!",
+      text: "Envie de me joindre? Envoie moi un message LinkedIn ou un mail!",
     },
   },
   photos: [
@@ -330,76 +330,9 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
   ],
-  hackathons: [
-    {
-      title: "PNW Hacks 2022",
-      dates: "October 14th - 16th, 2022",
-      location: "Seattle, Washington",
-      description: "Built a real-time collaborative code review tool using WebSockets and Monaco Editor. Won best developer tool.",
-      image: "https://avatar.vercel.sh/pnw-hacks?size=40",
-      win: "Best Developer Tool",
-      links: [],
-    },
-    {
-      title: "nwHacks 2022",
-      dates: "January 15th - 16th, 2022",
-      location: "Vancouver, BC",
-      description: "Created an accessibility-first browser extension that rewrites complex legal documents into plain English using GPT-3.",
-      image: "https://avatar.vercel.sh/nwhacks-2022?size=40",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "HackTheNorth 2021",
-      dates: "September 17th - 19th, 2021",
-      location: "Waterloo, Ontario (Remote)",
-      description: "Built a distributed key-value store in Go with a Raft consensus implementation from scratch. Finalist in the systems track.",
-      image: "https://avatar.vercel.sh/hackthenorth-2021?size=40",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/alexmercer-dev/raftdb",
-        },
-      ],
-    },
-    {
-      title: "DubHacks 2021",
-      dates: "October 9th - 10th, 2021",
-      location: "Seattle, Washington",
-      description: "Developed a carbon footprint tracker that integrates with Google Maps to suggest lower-emission commute alternatives.",
-      image: "https://avatar.vercel.sh/dubhacks-2021?size=40",
-      win: "Best Sustainability Hack",
-      links: [],
-    },
-    {
-      title: "StormHacks 2021",
-      dates: "April 24th - 25th, 2021",
-      location: "Burnaby, BC (Remote)",
-      description: "Built a multiplayer browser game where players collaboratively debug a shared codebase before a timer runs out.",
-      image: "https://avatar.vercel.sh/stormhacks-2021?size=40",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/bugout",
-        },
-      ],
-    },
-    {
-      title: "HackCamp 2020",
-      dates: "November 14th - 15th, 2020",
-      location: "Vancouver, BC (Remote)",
-      description: "Created a CLI tool that automatically generates unit test scaffolding from TypeScript function signatures using static analysis.",
-      image: "https://avatar.vercel.sh/hackcamp-2020?size=40",
-      win: "1st Place Overall",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/alexmercer-dev/testgen",
-        },
-      ],
+
+
+  
     },
     {
       title: "cmd-f 2020",
