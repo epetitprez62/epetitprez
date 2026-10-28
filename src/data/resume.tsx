@@ -149,9 +149,9 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Founder Fellowship SF",
-      href: "https://foundersfellowship.io",
-      degree: "Cohort 4 - Founder in Residence",
+      school: "ENSEEIHT",
+      href: "https://www.enseeiht.fr/fr/index.html",
+      degree: "Ingénieur Mécanique et Génie Hydraulique",
       logoUrl: "https://avatar.vercel.sh/founder-fellowship?size=40",
       start: "2023",
       end: "2023",
