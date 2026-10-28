@@ -1,15 +1,6 @@
 import { Icons } from "@/components/icons";
 import { House, Library } from "lucide-react";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
-import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
-import { Typescript } from "@/components/ui/svgs/typescript";
-import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
-import { Postgresql } from "@/components/ui/svgs/postgresql";
-import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
-import { Astro } from "@/components/ui/svgs/astro";
 
 export const DATA = {
   name: "Eliot Petitprez - Élève Ingénieur",
@@ -21,18 +12,18 @@ export const DATA = {
     "Élève de première année à l'ENSEEIHT dans le département MF2E (Mécanique des Fluides, Énergétique et Environnement). La conception d'infrastructures énergétiques m'intéressent grandement",
   summary:
     "J'ai effectué une classe préparatoire MPI (Mathématiques, Physique et Informatique) ce qui m'a fait comprendre que l'informatique me déplaisait et que je cherchais de quelque chose de plus concret. C'est en discutant avec des professionnels du métier que l'ingénierie énergetique m'a séduit.",
-  avatarUrl: `${import.meta.env.BASE_URL}photo_eliot.png`,
+  avatarUrl: "/epetitprez/photo_eliot.png",
   ogImage: "/og_image.png",
   sections: {
-    about: { order: 1, enabled: true, heading: "About" },
-    work: { order: 2, enabled: true, heading: "Work Experience", presentLabel: "Present" },
-    education: { order: 3, enabled: true, heading: "Education" },
-    skills: { order: 4, enabled: true, heading: "Skills" },
+    about: { order: 1, enabled: true, heading: "À propos" },
+    work: { order: 2, enabled: true, heading: "Expérience professionnelle", presentLabel: "Présent" },
+    education: { order: 3, enabled: true, heading: "Éducation" },
+    skills: { order: 4, enabled: true, heading: "Compétences" },
     projects: {
       order: 5, enabled: true,
-      label: "My Projects",
-      heading: "Check out my latest work",
-      text: "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
+      label: "Mes Projets",
+      heading: "Mes derniers travaux",
+      text: "J'ai travaillé sur divers projets durant ma scolarité, voici une sélection de mes préférés.",
     },
     hackathons: {
       order: 7, enabled: true,
@@ -42,13 +33,13 @@ export const DATA = {
     },
     photos: {
       order: 6, enabled: true,
-      heading: "My Recent Travels",
+      heading: "Mes récents voyages",
     },
     contact: {
       order: 8, enabled: true,
       label: "Contact",
-      heading: "Get in Touch",
-      text: "Want to chat? Just shoot me a dm with a direct question on twitter and I'll respond whenever I can. I will ignore all soliciting.",
+      heading: "Restons en contact!",
+      text: "Envie de me joindre? Envoie moi un message LinkedIn ou un mail!",
     },
   },
   photos: [
@@ -63,17 +54,10 @@ export const DATA = {
     { src: "/photos/photo9.jpg", alt: "Photo 9" },
   ],
   skills: [
-    { name: "Astro", icon: Astro },
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-  ],
+  { name: "Python", icon: Python },
+  { name: "C", icon: "https://icon-icons.com/icon/c-plain-logo/146610" },
+  { name: "OCaml", icon: "https://icon-icons.com/icon/ocaml-logo/170902" },
+],
   navbar: [
     { href: "/", icon: House, label: "Home" },
     { href: "/blog", icon: Library, label: "Blog" },
@@ -84,7 +68,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com",
+        url: "https://github.com/epetitprez62",
         icon: Icons.github,
         navbar: true,
       },
@@ -111,110 +95,66 @@ export const DATA = {
 
   work: [
     {
-      company: "Meridian Labs",
-      href: "https://meridian.so",
-      badges: ["Founder"],
-      location: "Austin, TX",
-      title: "Co-founder & Engineer",
-      logoUrl: "https://avatar.vercel.sh/meridian-labs?size=40",
-      start: "January 2023",
-      end: undefined,
+      company: "Finances publiques",
+      href: "https://www.impots.gouv.fr/accueil",
+      badges: [],
+      location: "Arras, France",
+      title: "Vacataire",
+      logoUrl: "/epetitprez/photos/finances_publiques_logo.png",
+      start: "Août 2024",
+      end: "Août 2024",
       description:
-        "Building a suite of developer productivity tools focused on local-first architecture and offline sync. Grew to 1,200 paying customers within the first year. Responsible for the full stack - product, engineering, and growth.",
+        "Découverte du système administratif français.",
     },
     {
-      company: "Stripe",
-      href: "https://stripe.com",
+      company: "SARL Jourdain",
       badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer Intern",
-      logoUrl: "https://www.google.com/s2/favicons?domain=stripe.com&sz=128",
-      start: "May 2022",
-      end: "August 2022",
+      location: "Nord, France",
+      title: "Moisson",
+      logoUrl: "/epetitprez/photos/agriculture_logo.jpg",
+      start: "Juillet 2023",
+      end: "Août 2023",
       description:
-        "Worked on the Payments Infrastructure team. Built an internal load-testing framework in Go that reduced regression testing time by 60%. Contributed to the migration of legacy billing logic to a new event-driven architecture using Kafka.",
+        "Accueil des agriculteurs, prélèvement et analyse de leurs céréales ainsi que gestion du dépôt. Ce travail recquiert de l'adaptation et beaucoup d'heures.",
     },
     {
-      company: "Cloudflare",
-      href: "https://cloudflare.com",
+      company: "UNIS",
+      href: "https://www.unis.fr/",
       badges: [],
-      location: "Remote",
-      title: "Software Engineer Intern",
-      logoUrl: "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=128",
-      start: "September 2021",
-      end: "December 2021",
+      location: "Lille",
+      title: "Stage ingénieur informatique",
+      logoUrl: "/epetitprez/photos/unis_logo.jpg",
+      start: "Juin 2020",
+      end: "Juillet 2020",
       description:
-        "Joined the Workers team during a co-op term. Implemented a new dashboard UI for monitoring Worker invocation metrics using React and D3. Added support for custom error boundaries in the Workers runtime sandbox.",
+        "Intégration d'une jeune équipe de développeurs. Analyse et compréhension du métier d'ingénieur développeur.",
     },
-    {
-      company: "Datadog",
-      href: "https://datadoghq.com",
-      badges: [],
-      location: "New York, NY",
-      title: "Software Engineer Intern",
-      logoUrl: "https://www.google.com/s2/favicons?domain=datadoghq.com&sz=128",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Built new alert correlation features in the Incidents product using Python and React. Improved p99 query latency on the metrics explorer by 40% through query plan optimizations in PostgreSQL.",
-    },
-    {
-      company: "Benchling",
-      href: "https://benchling.com",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer Intern",
-      logoUrl: "https://www.google.com/s2/favicons?domain=benchling.com&sz=128",
-      start: "May 2020",
-      end: "August 2020",
-      description:
-        "Worked on the scientific data platform team. Implemented a bulk import pipeline for lab instrument data using TypeScript and AWS Lambda, reducing manual data entry time for research teams by over 80%.",
-    },
-    {
-      company: "Relay Labs",
-      href: "https://relay.app",
-      badges: [],
-      location: "Vancouver, BC",
-      title: "Software Engineer Intern",
-      logoUrl: "https://www.google.com/s2/favicons?domain=relay.app&sz=128",
-      start: "September 2019",
-      end: "December 2019",
-      description:
-        "Early-stage startup building workflow automation tools. Shipped core integrations with Slack, Notion, and GitHub. Designed the initial webhook delivery system in Node.js that handled over 500k events per day at peak.",
-    },
+    
   ],
   education: [
     {
-      school: "Founder Fellowship SF",
-      href: "https://foundersfellowship.io",
-      degree: "Cohort 4 - Founder in Residence",
-      logoUrl: "https://avatar.vercel.sh/founder-fellowship?size=40",
-      start: "2023",
-      end: "2023",
+      school: "ENSEEIHT",
+      href: "https://www.enseeiht.fr/fr/index.html",
+      degree: "Ingénieur Mécanique et Génie Hydraulique",
+      logoUrl: "/epetitprez/photos/Logo_n7_inp.png",
+      start: "2026",
+      end: "2029",
     },
     {
-      school: "University of British Columbia",
-      href: "https://ubc.ca",
-      degree: "Bachelor of Science, Computer Science",
-      logoUrl: "https://www.google.com/s2/favicons?domain=ubc.ca&sz=128",
-      start: "2018",
-      end: "2023",
+      school: "Lycée Faidherbe",
+      href: "https://www.faidherbe.org/",
+      degree: "CPGE filière MPI",
+      logoUrl: "/epetitprez/photos/faidherbe_logo.png",
+      start: "2024",
+      end: "2026",
     },
     {
-      school: "Simon Fraser University",
-      href: "https://sfu.ca",
-      degree: "Bachelor of Business Administration",
-      logoUrl: "https://www.google.com/s2/favicons?domain=sfu.ca&sz=128",
-      start: "2018",
-      end: "2023",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "https://www.google.com/s2/favicons?domain=ibo.org&sz=128",
-      start: "2014",
-      end: "2018",
+      school: "Lycée Saint Paul",
+      href: "https://lyceestpaul-lens.fr/",
+      degree: "Baccalauréat",
+      logoUrl: "/epetitprez/photos/stpaul_logo.png",
+      start: "2021",
+      end: "2024",
     },
   ],
   projects: [
@@ -330,6 +270,7 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
   ],
+
   hackathons: [
     {
       title: "PNW Hacks 2022",
@@ -400,6 +341,7 @@ export const DATA = {
           href: "https://github.com/alexmercer-dev/testgen",
         },
       ],
+  
     },
     {
       title: "cmd-f 2020",
@@ -451,4 +393,5 @@ export const DATA = {
       links: [],
     },
   ],
+
 } as const;
