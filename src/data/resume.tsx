@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
 import { House, Library } from "lucide-react";
 import { Python } from "@/components/ui/svgs/python";
+
 export const DATA = {
   name: "Eliot Petitprez - Élève Ingénieur",
   initials: "EP",
@@ -53,10 +54,10 @@ export const DATA = {
     { src: "/photos/photo9.jpg", alt: "Photo 9" },
   ],
   skills: [
-    { name: "Python", icon: Python },
-    { name: "C", icon: "/epetitprez/photos/langage_c.png" },
-    { name: "OCaml", icon: "/epetitprez/photos/langage_ocaml.jpg" },
-  ],
+  { name: "Python", icon: Python },
+  { name: "C", icon: Python },
+  { name: "OCaml", icon: Python },
+],
   navbar: [
     { href: "/", icon: House, label: "Home" },
     { href: "/blog", icon: Library, label: "Blog" },
