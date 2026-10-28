@@ -55,8 +55,8 @@ export const DATA = {
   ],
   skills: [
   { name: "Python", icon: Python },
-  { name: "C", icon: "https://icon-icons.com/icon/c-plain-logo/146610" },
-  { name: "OCaml", icon: "https://icon-icons.com/icon/ocaml-logo/170902" },
+  { name: "C", icon: "/epetitprez/photos/langage_c.png" },
+  { name: "OCaml", icon: "/epetitprez/photos/langage_ocaml.jpg" },
 ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
