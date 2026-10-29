@@ -43,8 +43,8 @@ export const DATA = {
     },
   },
   photos: [
-    { src: "/photos/photo1.jpg", alt: "Photo 1" },
-    { src: "/photos/photo2.jpg", alt: "Photo 2" },
+    { src: "/epetitprez/photos/islande_cascade.jpg", alt: "Svartifoss (Islande)" },
+    { src: "/epetitprez/photos/grandcanyon.png", alt: "Monument Valley (USA)" },
     { src: "/photos/photo3.jpg", alt: "Photo 3" },
     { src: "/photos/photo4.jpg", alt: "Photo 4" },
     { src: "/photos/photo5.jpg", alt: "Photo 5" },
