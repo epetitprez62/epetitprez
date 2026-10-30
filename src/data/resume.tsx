@@ -18,7 +18,7 @@ export const DATA = {
     about: { order: 1, enabled: true, heading: "À propos" },
     cv: {order: 2, enabled: true, heading: "CV"},
     work: { order: 3, enabled: true, heading: "Expérience professionnelle", presentLabel: "Présent" },
-    education: { order: 4, enabled: true, heading: "Éducation" },
+    education: { order: 4, enabled: true, heading: "Formation" },
     skills: { order: 5, enabled: true, heading: "Compétences" },
     pitch: {order: 6, enabled: true, heading: "Elevator Pitch"},
     projects: {
