@@ -47,7 +47,7 @@ export const DATA = {
     { src: "/epetitprez/photos/islande_cabanon.jpg", alt: "Islande" },
     { src: "/epetitprez/photos/monumentvalleytexte.png", alt: "Monument Valley (USA)" },
     { src: "/epetitprez/photos/gr20texte.png", alt: "Sentier GR20" },
-    { src: "/epetitprez/photos/boutdefrance.png", alt: "Petit bout de France" },
+    { src: "/epetitprez/photos/boutdefrancetexte.png", alt: "Petit bout de France" },
     { src: "/epetitprez/photos/villelumiere.png", alt: "Paris, Ville Lumière" },
     { src: "/photos/photo7.jpg", alt: "Photo 7" },
     { src: "/photos/photo8.jpg", alt: "Photo 8" },
