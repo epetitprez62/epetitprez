@@ -49,9 +49,6 @@ export const DATA = {
     { src: "/epetitprez/photos/gr20texte.png", alt: "Sentier GR20" },
     { src: "/epetitprez/photos/boutdefrancetexte.png", alt: "Petit bout de France" },
     { src: "/epetitprez/photos/villelumiere.png", alt: "Paris, Ville Lumière" },
-    { src: "/photos/photo7.jpg", alt: "Photo 7" },
-    { src: "/photos/photo8.jpg", alt: "Photo 8" },
-    { src: "/photos/photo9.jpg", alt: "Photo 9" },
   ],
   skills: [
   { name: "Python", icon: Python },
