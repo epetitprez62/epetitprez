@@ -28,6 +28,33 @@ const sectionComponents: Record<string, React.ReactNode> = {
       </div>
     </section>
   ),
+
+  cv: (
+  <section id="cv">
+    <div className="flex min-h-0 flex-col gap-y-4">
+      <BlurFade delay={BLUR_FADE_DELAY * 5}>
+        <h2 className="text-xl font-bold">
+          {DATA.sections.cv.heading}
+        </h2>
+      </BlurFade>
+
+      <div className="flex flex-wrap gap-3">
+        {DATA.cv.map((item) => (
+          <BlurFade key={item.language} delay={BLUR_FADE_DELAY * 6}>
+            <a
+              href={item.href}
+              download
+              className="inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-medium hover:bg-muted transition-colors"
+            >
+              <span>{item.language}</span>
+              <span className="text-muted-foreground">PDF</span>
+            </a>
+          </BlurFade>
+        ))}
+      </div>
+    </div>
+  </section>
+),
   work: (
     <section id="work">
       <div className="flex min-h-0 flex-col gap-y-6">
