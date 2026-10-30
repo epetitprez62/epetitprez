@@ -24,13 +24,13 @@ export const DATA = {
     projects: {
       order: 7, enabled: true,
       label: "Mes Projets",
-      heading: "Mes derniers travaux",
+      heading: "Mes projets",
       text: "J'ai travaillé sur divers projets durant ma scolarité, en voici une sélection",
     },
     
     photos: {
       order: 8, enabled: true,
-      heading: "Mes récents voyages",
+      heading: "Mes derniers voyages",
     },
     contact: {
       order: 9, enabled: true,
