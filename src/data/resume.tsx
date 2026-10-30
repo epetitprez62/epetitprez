@@ -156,6 +156,27 @@ export const DATA = {
   ],
    projects: [
 
+    {
+      title: "Modélisation informatique de la sélection naturelle",
+      href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
+      dates: "Juin 2024",
+      active: true,
+      description:
+        "Travail de groupe de 6 h pour coder un jeu avec scratch ou python. Cet évènement encourage la collaboration, la créativité, l’innovation, offrant aux participants une opportunité unique de démontrer leurs compétences en informatique.",
+      technologies: [
+        "Python",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/epetitprez/photos/nuitducode.png",
+      video: "",
+    },
+     
 
      {
       title: "Nuit du code",
