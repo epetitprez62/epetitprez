@@ -16,19 +16,20 @@ export const DATA = {
   ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "À propos" },
-    work: { order: 2, enabled: true, heading: "Expérience professionnelle", presentLabel: "Présent" },
-    education: { order: 3, enabled: true, heading: "Éducation" },
-    skills: { order: 4, enabled: true, heading: "Compétences" },
-    pitch: {order: 5, enabled: true, heading: "Elevator Pitch"},
+    cv: {order: 2, enabled: true, heading: "CV"},
+    work: { order: 3, enabled: true, heading: "Expérience professionnelle", presentLabel: "Présent" },
+    education: { order: 4, enabled: true, heading: "Éducation" },
+    skills: { order: 5, enabled: true, heading: "Compétences" },
+    pitch: {order: 6, enabled: true, heading: "Elevator Pitch"},
     projects: {
-      order: 6, enabled: true,
+      order: 7, enabled: true,
       label: "Mes Projets",
       heading: "Mes derniers travaux",
       text: "J'ai travaillé sur divers projets durant ma scolarité, en voici une sélection",
     },
     
     photos: {
-      order: 7, enabled: true,
+      order: 8, enabled: true,
       heading: "Mes récents voyages",
     },
     contact: {
@@ -85,6 +86,17 @@ export const DATA = {
     },
   },
 
+  cv: [
+    {
+    language: "Français",
+    href: "/epetitprez/cv_fr_eliot.odt",
+  },
+  {
+    language: "English",
+    href: "/epetitprez/cv_fr_eliot.odt",
+  },
+  ],
+  
   work: [
     {
       company: "Finances publiques",
