@@ -162,7 +162,7 @@ export const DATA = {
       dates: " Décembre 2024 - Juillet 2026",
       active: true,
       description:
-        "Projet relatif aux concours de CPGE, j'ai observé l'émergence de la locomotion terrestre via une simulation informatique de la sélection naturelle reposant sur les algorithmes évolutifs",
+        "Projet relatif aux concours de CPGE, j'ai observé l'émergence de la locomotion terrestre via une simulation informatique de la sélection naturelle reposant sur les algorithmes évolutifs.",
       technologies: [
         "Python",
         "Algorithmie",
