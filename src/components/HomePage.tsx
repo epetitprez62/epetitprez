@@ -30,27 +30,27 @@ const sectionComponents: Record<string, React.ReactNode> = {
   ),
 
   
+
 cv: (
   <section id="cv">
     <div className="flex min-h-0 flex-col gap-y-6">
       <BlurFade delay={BLUR_FADE_DELAY * 5}>
-        <h2 className="text-xl font-bold text-center">
+        <h2 className="text-xl font-bold">
           {DATA.sections.cv.heading}
         </h2>
       </BlurFade>
 
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-row justify-center gap-6">
         {DATA.cv.map((item) => (
           <BlurFade key={item.language} delay={BLUR_FADE_DELAY * 6}>
             <a
               href={item.href}
               download
-              className="inline-flex min-w-[190px] items-center justify-center gap-3 rounded-xl bg-blue-600 px-8 py-5 text-lg font-semibold text-white shadow-lg transition-all duration-200 hover:-translate-y-1 hover:bg-blue-700 hover:shadow-xl"
+              className="inline-flex items-center justify-center rounded-xl border border-sky-200 bg-sky-100 px-8 py-5 text-lg font-semibold text-sky-800 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:bg-sky-200 hover:shadow-md dark:border-sky-800 dark:bg-sky-950 dark:text-sky-200 dark:hover:bg-sky-900"
             >
-              <span>Télécharger mon CV</span>
-              <span className="rounded-md bg-white/20 px-2 py-1 text-sm">
-                {item.language}
-              </span>
+              {item.language === "Français"
+                ? "CV (Français)"
+                : "Resume (English)"}
             </a>
           </BlurFade>
         ))}
@@ -58,6 +58,7 @@ cv: (
     </div>
   </section>
 ),
+
 
 
 
