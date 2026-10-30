@@ -19,24 +19,20 @@ export const DATA = {
     work: { order: 2, enabled: true, heading: "Expérience professionnelle", presentLabel: "Présent" },
     education: { order: 3, enabled: true, heading: "Éducation" },
     skills: { order: 4, enabled: true, heading: "Compétences" },
+    pitch: {order: 5, enabled: true, heading: "Elevator Pitch"},
     projects: {
-      order: 5, enabled: true,
+      order: 6, enabled: true,
       label: "Mes Projets",
       heading: "Mes derniers travaux",
       text: "J'ai travaillé sur divers projets durant ma scolarité, en voici une sélection",
     },
-    hackathons: {
-      order: 7, enabled: false,
-      label: "Hackathons",
-      heading: "I like building things",
-      text: "During my time in university, I attended {count}+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals.",
-    },
+    
     photos: {
-      order: 6, enabled: true,
+      order: 7, enabled: true,
       heading: "Mes récents voyages",
     },
     contact: {
-      order: 8, enabled: true,
+      order: 9, enabled: true,
       label: "Contact",
       heading: "Restons en contact!",
       text: "Envie de me joindre? Envoie moi un message LinkedIn ou un mail!",
@@ -154,6 +150,13 @@ export const DATA = {
       end: "2024",
     },
   ],
+
+  pitch:[
+    { src: "/epetitprez/photos/pitch_remplacement.mp4", alt: "Elevator Pitch" },
+    ],
+
+
+    
    projects: [
 
     {
