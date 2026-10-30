@@ -155,31 +155,26 @@ export const DATA = {
     },
   ],
    projects: [
-    {
-      title: "Stackwise",
-      href: "https://stackwise.dev",
-      dates: "March 2024 - Present",
+
+
+     {
+      title: "Nuit du code",
+      href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
+      dates: "Juin 2024",
       active: true,
       description:
-        "Built an AI-powered code review tool that integrates with GitHub PRs and provides context-aware feedback based on your team's codebase conventions. Used by 300+ engineering teams.",
+        "Travail de groupe de 6 h pour coder un jeu avec scratch ou python. Cet évènement encourage la collaboration, la créativité, l’innovation, offrant aux participants une opportunité unique de démontrer leurs compétences en informatique.",
       technologies: [
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "OpenAI API",
+        "Python",
       ],
       links: [
         {
           type: "Website",
-          href: "https://stackwise.dev",
+          href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/example-website.webp",
+      image: "/epetitprez/photos/nuitducode.png",
       video: "",
     },
   ],
