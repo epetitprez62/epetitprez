@@ -158,22 +158,23 @@ export const DATA = {
 
     {
       title: "Modélisation informatique de la sélection naturelle",
-      href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
-      dates: "Juin 2024",
+      href: "/epetitprez/PETITPREZ_Eliot_MCOT_scei.pdf",
+      dates: " Décembre 2024 - Juillet 2026",
       active: true,
       description:
-        "Travail de groupe de 6 h pour coder un jeu avec scratch ou python. Cet évènement encourage la collaboration, la créativité, l’innovation, offrant aux participants une opportunité unique de démontrer leurs compétences en informatique.",
+        "Projet relatif aux concours de CPGE, j'ai observé l'émergence de la locomotion terrestre via une simulation informatique de la sélection naturelle reposant sur les algorithmes évolutifs",
       technologies: [
         "Python",
+        "Algorithmie",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
+          type: "PDF",
+          href: "/epetitprez/PETITPREZ_Eliot_MCOT_scei.pdf",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/epetitprez/photos/nuitducode.png",
+      image: "/epetitprez/photos/tipe_crea.png",
       video: "",
     },
      
