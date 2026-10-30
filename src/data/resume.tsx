@@ -183,5 +183,4 @@ export const DATA = {
       video: "",
     },
   ],
-}
-     as const;
+} as const;
