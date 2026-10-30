@@ -29,25 +29,28 @@ const sectionComponents: Record<string, React.ReactNode> = {
     </section>
   ),
 
-  cv: (
+  
+cv: (
   <section id="cv">
-    <div className="flex min-h-0 flex-col gap-y-4">
+    <div className="flex min-h-0 flex-col gap-y-6">
       <BlurFade delay={BLUR_FADE_DELAY * 5}>
-        <h2 className="text-xl font-bold">
+        <h2 className="text-xl font-bold text-center">
           {DATA.sections.cv.heading}
         </h2>
       </BlurFade>
 
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap justify-center gap-6">
         {DATA.cv.map((item) => (
           <BlurFade key={item.language} delay={BLUR_FADE_DELAY * 6}>
             <a
               href={item.href}
               download
-              className="inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-medium hover:bg-muted transition-colors"
+              className="inline-flex min-w-[190px] items-center justify-center gap-3 rounded-xl bg-blue-600 px-8 py-5 text-lg font-semibold text-white shadow-lg transition-all duration-200 hover:-translate-y-1 hover:bg-blue-700 hover:shadow-xl"
             >
-              <span>{item.language}</span>
-              <span className="text-muted-foreground">PDF</span>
+              <span>Télécharger mon CV</span>
+              <span className="rounded-md bg-white/20 px-2 py-1 text-sm">
+                {item.language}
+              </span>
             </a>
           </BlurFade>
         ))}
@@ -55,6 +58,9 @@ const sectionComponents: Record<string, React.ReactNode> = {
     </div>
   </section>
 ),
+
+
+
   work: (
     <section id="work">
       <div className="flex min-h-0 flex-col gap-y-6">
