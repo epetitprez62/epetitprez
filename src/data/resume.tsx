@@ -89,11 +89,11 @@ export const DATA = {
   cv: [
     {
     language: "Français",
-    href: "/epetitprez/cv_fr_eliot.odt",
+    href: "/epetitprez/cv_fr.pdf",
   },
   {
     language: "English",
-    href: "/epetitprez/cv_fr_eliot.odt",
+    href: "/epetitprez/cv_en.pdf",
   },
   ],
   
