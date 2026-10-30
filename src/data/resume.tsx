@@ -19,39 +19,32 @@ export const DATA = {
     work: { order: 2, enabled: true, heading: "Expérience professionnelle", presentLabel: "Présent" },
     education: { order: 3, enabled: true, heading: "Éducation" },
     skills: { order: 4, enabled: true, heading: "Compétences" },
+    pitch: {order: 5, enabled: true, heading: "Elevator Pitch"},
     projects: {
-      order: 5, enabled: true,
+      order: 6, enabled: true,
       label: "Mes Projets",
       heading: "Mes derniers travaux",
-      text: "J'ai travaillé sur divers projets durant ma scolarité, voici une sélection de mes préférés.",
+      text: "J'ai travaillé sur divers projets durant ma scolarité, en voici une sélection",
     },
-    hackathons: {
-      order: 7, enabled: false,
-      label: "Hackathons",
-      heading: "I like building things",
-      text: "During my time in university, I attended {count}+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals.",
-    },
+    
     photos: {
-      order: 6, enabled: true,
+      order: 7, enabled: true,
       heading: "Mes récents voyages",
     },
     contact: {
-      order: 8, enabled: true,
+      order: 9, enabled: true,
       label: "Contact",
       heading: "Restons en contact!",
       text: "Envie de me joindre? Envoie moi un message LinkedIn ou un mail!",
     },
   },
   photos: [
-    { src: "/photos/photo1.jpg", alt: "Photo 1" },
-    { src: "/photos/photo2.jpg", alt: "Photo 2" },
-    { src: "/photos/photo3.jpg", alt: "Photo 3" },
-    { src: "/photos/photo4.jpg", alt: "Photo 4" },
-    { src: "/photos/photo5.jpg", alt: "Photo 5" },
-    { src: "/photos/photo6.jpg", alt: "Photo 6" },
-    { src: "/photos/photo7.jpg", alt: "Photo 7" },
-    { src: "/photos/photo8.jpg", alt: "Photo 8" },
-    { src: "/photos/photo9.jpg", alt: "Photo 9" },
+    { src: "/epetitprez/photos/islande_cascadetexte.png", alt: "Svartifoss (Islande)" },
+    { src: "/epetitprez/photos/islande_cabanon.jpg", alt: "Islande" },
+    { src: "/epetitprez/photos/monumentvalleytexte.png", alt: "Monument Valley (USA)" },
+    { src: "/epetitprez/photos/gr20texte.png", alt: "Sentier GR20" },
+    { src: "/epetitprez/photos/boutdefrancetexte.png", alt: "Petit bout de France" },
+    { src: "/epetitprez/photos/villelumiere.png", alt: "Paris, Ville Lumière" },
   ],
   skills: [
   { name: "Python", icon: Python },
@@ -157,120 +150,79 @@ export const DATA = {
       end: "2024",
     },
   ],
-  projects: [
+
+  pitch:[
+    { src: "/epetitprez/photos/pitch_remplacement.mp4", alt: "Elevator Pitch" },
+    ],
+
+
+    
+   projects: [
+
     {
-      title: "Stackwise",
-      href: "https://stackwise.dev",
-      dates: "March 2024 - Present",
+      title: "Modélisation informatique de la sélection naturelle",
+      href: "/epetitprez/PETITPREZ_Eliot_MCOT_scei.pdf",
+      dates: " Décembre 2024 - Juillet 2026",
       active: true,
       description:
-        "Built an AI-powered code review tool that integrates with GitHub PRs and provides context-aware feedback based on your team's codebase conventions. Used by 300+ engineering teams.",
+        "Projet relatif aux concours de CPGE, j'ai observé l'émergence de la locomotion terrestre via une simulation informatique de la sélection naturelle reposant sur les algorithmes évolutifs.",
       technologies: [
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "OpenAI API",
+        "Python",
+        "Algorithmie",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://stackwise.dev",
+          type: "PDF",
+          href: "/epetitprez/PETITPREZ_Eliot_MCOT_scei.pdf",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/example-website.webp",
+      image: "/epetitprez/photos/tipe_crea.png",
       video: "",
     },
-    {
-      title: "Logport",
-      href: "https://logport.io",
-      dates: "October 2023 - February 2024",
+     
+
+     {
+      title: "Nuit du code",
+      href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
+      dates: "Juin 2024",
       active: true,
       description:
-        "Open-source structured logging dashboard for Node.js and Python services. Ingest logs via a lightweight SDK, query them with a SQL-like syntax, and set up alerts in minutes.",
+        "Travail de groupe de 6 h pour coder un jeu avec scratch ou python. Cet évènement encourage la collaboration, la créativité, l’innovation, offrant aux participants une opportunité unique de démontrer leurs compétences en informatique.",
       technologies: [
-        "Next.js",
-        "TypeScript",
-        "ClickHouse",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Cloudflare Workers",
+        "Python",
       ],
       links: [
         {
           type: "Website",
-          href: "https://logport.io",
+          href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/la-nuit-du-code-edition-2024/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/alexmercer-dev/logport",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "Formbase",
-      href: "https://formbase.dev",
-      dates: "June 2023 - September 2023",
-      active: true,
-      description:
-        "A headless form backend that handles submissions, spam filtering, file uploads, and email notifications - no server required. Drop in one script tag and you're done.",
-      technologies: [
-        "Astro",
-        "TypeScript",
-        "Cloudflare Workers",
-        "TailwindCSS",
-        "Stripe",
-        "Resend",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://formbase.dev",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/alexmercer-dev/formbase",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/example-website.png",
+      image: "/epetitprez/photos/nuitducode.png",
       video: "",
     },
-    {
-      title: "Patchwork",
-      href: "https://patchwork.run",
-      dates: "February 2023 - May 2023",
-      active: false,
+
+
+     {
+      title: "Préparation certification LPI",
+      href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/nos-professeurs-en-nsi-devoues-pour-preparer-des-eleves-a-la-1ere-certification-linux/",
+      dates: "Février 2024",
+      active: true,
       description:
-        "A visual diff tool for design tokens and Tailwind config changes. Connect it to your repo and get a live preview of how a config change affects every component in your design system.",
+        "Cette formation a eu pour but d’initier à un système fortement utilisé en entreprise, et de préparer à la première certification LPI (Linux Professionnal Institute Essentials).",
       technologies: [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Vercel",
+        "Linux",
       ],
       links: [
         {
           type: "Website",
-          href: "https://patchwork.run",
+          href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/nos-professeurs-en-nsi-devoues-pour-preparer-des-eleves-a-la-1ere-certification-linux/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/epetitprez/photos/preparationlinux.png",
+      video: "",
     },
   ],
-
-
-
 } as const;
