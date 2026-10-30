@@ -23,7 +23,7 @@ export const DATA = {
       order: 5, enabled: true,
       label: "Mes Projets",
       heading: "Mes derniers travaux",
-      text: "J'ai travaillé sur divers projets durant ma scolarité, voici une sélection de mes préférés.",
+      text: "J'ai travaillé sur divers projets durant ma scolarité, en voici une sélection",
     },
     hackathons: {
       order: 7, enabled: false,
@@ -175,6 +175,28 @@ export const DATA = {
         },
       ],
       image: "/epetitprez/photos/nuitducode.png",
+      video: "",
+    },
+
+
+     {
+      title: "Préparation certification LPI",
+      href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/nos-professeurs-en-nsi-devoues-pour-preparer-des-eleves-a-la-1ere-certification-linux/",
+      dates: "Février 2024",
+      active: true,
+      description:
+        "Cette formation a eu pour but d’initier à un système fortement utilisé en entreprise, et de préparer à la première certification LPI (Linux Professionnal Institute Essentials).",
+      technologies: [
+        "Linux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lyceestpaul-lens.fr/la-vie-au-lycee-saint-paul/articles/nos-professeurs-en-nsi-devoues-pour-preparer-des-eleves-a-la-1ere-certification-linux/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/epetitprez/photos/preparationlinux.png",
       video: "",
     },
   ],
