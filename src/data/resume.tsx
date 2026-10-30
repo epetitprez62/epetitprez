@@ -178,8 +178,11 @@ export const DATA = {
           href: "https://stackwise.dev",
           icon: <Icons.globe className="size-3" />,
         },
+        
       ],
       image: "/example-website.webp",
       video: "",
-    }
+    },
+  ],
+}
      as const;
