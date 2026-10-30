@@ -52,9 +52,8 @@ export const DATA = {
   { name: "OCaml", icon: "/epetitprez/photos/langage_ocaml.jpg" },
 ],
   navbar: [
-    { href: "/", icon: House, label: "Home" },
-    { href: "/blog", icon: Library, label: "Blog" },
-  ],
+  { href: "#hero", icon: House, label: "Home" },
+],
   contact: {
     email: "eliot.petitprez@gmail.com",
     tel: "+1 512 000 0000",
