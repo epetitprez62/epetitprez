@@ -112,6 +112,34 @@ const sectionComponents: Record<string, React.ReactNode> = {
       </div>
     </section>
   ),
+
+  pitch: (
+  <section id="pitch">
+    <div className="flex min-h-0 flex-col gap-y-6">
+      <BlurFade delay={BLUR_FADE_DELAY * 11}>
+        <h2 className="text-xl font-bold">
+          {DATA.sections.pitch.heading}
+        </h2>
+      </BlurFade>
+
+      <BlurFade delay={BLUR_FADE_DELAY * 12}>
+        <video
+          controls
+          playsInline
+          preload="metadata"
+          className="w-full rounded-xl border shadow-sm"
+        >
+          <source
+            src={DATA.pitch[0].src}
+            type="video/mp4"
+          />
+          Ton navigateur ne prend pas en charge la vidéo.
+        </video>
+      </BlurFade>
+    </div>
+  </section>
+),
+
   projects: (
     <section id="projects">
       <BlurFade delay={BLUR_FADE_DELAY * 11}>
