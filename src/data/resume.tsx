@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { House, Library } from "lucide-react";
+import { House } from "lucide-react";
 import { Python } from "@/components/ui/svgs/python";
 
 export const DATA = {
