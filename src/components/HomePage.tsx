@@ -147,21 +147,22 @@ cv: (
     </section>
   ),
 
-  pitch: (
-<section id="elevator-pitch" class="my-12">
-  <h2 class="text-2xl font-bold mb-4">Elevator Pitch</h2>
+pitch: (
+    <section id="elevator-pitch" className="my-12">
+      <h2 className="text-2xl font-bold mb-4">Elevator Pitch</h2>
 
-  <div class="aspect-video w-full overflow-hidden rounded-xl">
-    <iframe
-      class="w-full h-full"
-      src="https://www.youtube.com/watch?v=6DmErl7dky8"
-      title="My Elevator Pitch"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
-  </div>
-</section>
+      <div className="aspect-video w-full overflow-hidden rounded-xl">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/6DmErl7dky8"
+          title="My Elevator Pitch"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </div>
+    </section>
+  ),
 
   projects: (
     <section id="projects">
