@@ -12,25 +12,25 @@ export const DATA = {
     "Élève de première année à l'ENSEEIHT dans le département MF2E (Mécanique des Fluides, Énergétique et Environnement). La conception d'infrastructures énergétiques m'intéressent grandement",
   summary:
     "J'ai effectué une classe préparatoire MPI (Mathématiques, Physique et Informatique) ce qui m'a fait comprendre que l'informatique me déplaisait et que je cherchais de quelque chose de plus concret. C'est en discutant avec des professionnels du métier que l'ingénierie énergetique m'a séduit.",
-  avatarUrl: "/epetitprez/photo_eliot.png",
+  avatarUrl: "/epetitprez/eliot_zoom.png",
   ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "À propos" },
     cv: {order: 2, enabled: true, heading: "CV"},
     work: { order: 3, enabled: true, heading: "Expérience professionnelle", presentLabel: "Présent" },
-    education: { order: 4, enabled: true, heading: "Éducation" },
+    education: { order: 4, enabled: true, heading: "Formation" },
     skills: { order: 5, enabled: true, heading: "Compétences" },
     pitch: {order: 6, enabled: true, heading: "Elevator Pitch"},
     projects: {
       order: 7, enabled: true,
       label: "Mes Projets",
-      heading: "Mes derniers travaux",
+      heading: "Mes projets",
       text: "J'ai travaillé sur divers projets durant ma scolarité, en voici une sélection",
     },
     
     photos: {
       order: 8, enabled: true,
-      heading: "Mes récents voyages",
+      heading: "Mes derniers voyages",
     },
     contact: {
       order: 9, enabled: true,
@@ -89,11 +89,11 @@ export const DATA = {
   cv: [
     {
     language: "Français",
-    href: "/epetitprez/cv_fr_eliot.odt",
+    href: "/epetitprez/cv_fr.pdf",
   },
   {
     language: "English",
-    href: "/epetitprez/cv_fr_eliot.odt",
+    href: "/epetitprez/cv_en.pdf",
   },
   ],
   
