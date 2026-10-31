@@ -148,31 +148,20 @@ cv: (
   ),
 
   pitch: (
-  <section id="pitch">
-    <div className="flex min-h-0 flex-col gap-y-6">
-      <BlurFade delay={BLUR_FADE_DELAY * 11}>
-        <h2 className="text-xl font-bold">
-          {DATA.sections.pitch.heading}
-        </h2>
-      </BlurFade>
+<section id="elevator-pitch" class="my-12">
+  <h2 class="text-2xl font-bold mb-4">Elevator Pitch</h2>
 
-      <BlurFade delay={BLUR_FADE_DELAY * 12}>
-        <video
-          controls
-          playsInline
-          preload="metadata"
-          className="w-full rounded-xl border shadow-sm"
-        >
-          <source
-            src={DATA.pitch[0].src}
-            type="video/mp4"
-          />
-          Ton navigateur ne prend pas en charge la vidéo.
-        </video>
-      </BlurFade>
-    </div>
-  </section>
-),
+  <div class="aspect-video w-full overflow-hidden rounded-xl">
+    <iframe
+      class="w-full h-full"
+      src="https://www.youtube.com/watch?v=6DmErl7dky8"
+      title="My Elevator Pitch"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
 
   projects: (
     <section id="projects">
