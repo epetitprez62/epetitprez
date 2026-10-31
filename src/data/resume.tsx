@@ -162,9 +162,12 @@ export const DATA = {
     },
   ],
 
-  pitch:[
-    { src: "/epetitprez/photos/pitch_remplacement.mp4", alt: "Elevator Pitch" },
-    ],
+  pitch: [
+  {
+    src: "https://www.youtube.com/embed/6DmErl7dky8",
+    alt: "Elevator Pitch",
+  },
+],
 
 
     
